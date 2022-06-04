@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Day_24_UserRegistrationUsingLAMBDAExpression
+namespace UserRegistrationUsingLAMBDAExpression
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to User Registration Using Lambda Expression\n\n");
+            LambdaExpression lambdaExpression = new LambdaExpression();
+            lambdaExpression.Validate();
         }
     }
 }
